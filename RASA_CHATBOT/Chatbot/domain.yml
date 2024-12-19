@@ -1,0 +1,95 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - weather
+  - how_sugam_works
+  - security_measures
+  - own_tally_license
+  - multiuser_access
+  - subscription_info
+  - customizations_support
+  - backup_data
+  - device_access
+  - refund_policy
+  - what_is_sugam 
+  - legal_compliance
+  - most_secure_platform
+  - access_tally
+  - support_versions
+
+
+
+
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_weather:
+  - text: "Today's weather is great"
+
+
+
+
+  utter_what_is_sugam:
+    - text: "Sugam is a cloud-based platform that allows you to run Tally ERP on the cloud, providing secure, remote access to your Tally data from any device and operating system. It offers robust security measures and supports all Tally customizations, ensuring a seamless and protected environment for your accounting needs."
+
+  utter_how_sugam_works:
+    - text: "You can access Sugam Tally Cloud using your web browser. Once connected, you will be presented with a session from where you can start using Tally."
+  utter_security_measures:
+    - text: "Sugam provides a robust Linux environment to protect your Tally data from viruses, malware, ransomware, etc. All servers are behind a strong firewall system, and Tally data is protected from unauthorized access."
+  utter_own_tally_license:
+    - text: "Yes, you need to have your own Tally License. Sugam does not provide Tally licenses, but you can use your existing Silver and Gold Tally licenses."
+  utter_multiuser_access:
+    - text: "No, you need a Tally Multiuser Gold License for multi-user access."
+  utter_subscription_info:
+    - text: "You can contact Sugam's sales team for information on technical and commercial aspects, and they will guide you through the purchase and implementation process."
+  utter_customizations_support:
+    - text: "Yes, you can integrate all your Tally customizations in the same way as you do in your local environment. It's recommended to test TDLs with the support team before purchasing a subscription."
+  utter_backup_data:
+    - text: "You can take backups on your local PC or Google Drive. Sugam Cloud provides seamless backup and restoration processes."
+  utter_device_access:
+    - text: "Yes, you can access Tally from any web browser, making it compatible with Windows, Linux, and macOS."
+  utter_refund_policy:
+    - text: "If the product doesn't meet your needs, Sugam offers refund without any questions."
+
+  utter_legal_compliance:
+    - text: "Sugam ensures full compliance with all legal and regulatory requirements. The platform is designed to comply with data protection laws and provides a secure environment for running Tally. All operations are conducted in accordance with legal standards, and Sugam regularly updates its practices to remain compliant with evolving regulations."
+
+  utter_most_secure_platform:
+    - text: "Sugam provides a robust Linux environment, protects against viruses, malware, and ransomware, uses SSL for secure access, and has multi-level security measures in place to ensure the safety and integrity of your Tally data."
+
+  utter_access_tally:
+    - text: "You can access Tally on Sugam Cloud using your web browser. Simply connect to the Sugam platform, and you will be able to start a session and use Tally just like on a local setup."
+
+  utter_support_versions:
+    - text: "Yes, Sugam Cloud supports all versions of Tally, allowing you to use your preferred or required version without any issues."
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

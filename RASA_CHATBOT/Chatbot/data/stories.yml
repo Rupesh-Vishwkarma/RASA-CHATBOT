@@ -1,0 +1,103 @@
+
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: weather information
+  steps:
+  - intent: weather
+  - action: utter_weather
+  - intent: affirm
+  - action: utter_happy
+
+
+
+
+- story: tell how sugam works
+  steps:
+  - intent: how_sugam_works
+  - action: utter_how_sugam_works
+- story: tell security measures
+  steps:
+  - intent: security_measures
+  - action: utter_security_measures
+- story: tell about own tally license
+  steps:
+  - intent: own_tally_license
+  - action: utter_own_tally_license
+- story: tell about multiuser access
+  steps:
+  - intent: multiuser_access
+  - action: utter_multiuser_access
+- story: tell about subscription info
+  steps:
+  - intent: subscription_info
+  - action: utter_subscription_info
+- story: tell about customizations support
+  steps:
+  - intent: customizations_support
+  - action: utter_customizations_support
+- story: tell about backup data
+  steps:
+  - intent: backup_data
+  - action: utter_backup_data
+- story: tell about device access
+  steps:
+  - intent: device_access
+  - action: utter_device_access
+- story: tell about refund policy
+  steps:
+  - intent: refund_policy
+  - action: utter_refund_policy
+
+- story: tell what is sugam 
+  steps: 
+  - intent: what_is_sugam 
+  - action: utter_what_is_sugam
+
+
+- story: tell about legal compliance
+  steps:
+  - intent: legal_compliance
+  - action: utter_legal_compliance
+
+- story: tell about most secure platform
+  steps:
+  - intent: most_secure_platform
+  - action: utter_most_secure_platform
+
+- story: tell how to access tally
+  steps:
+  - intent: access_tally
+  - action: utter_access_tally
+
+- story: tell about support versions
+  steps:
+  - intent: support_versions
+  - action: utter_support_versions

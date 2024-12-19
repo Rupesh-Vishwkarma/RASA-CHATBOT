@@ -1,0 +1,208 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: weather 
+  examples: |
+    - how is the weather today
+    - what is the weather
+    - weather info
+    - weather forecast
+    - weather 
+
+
+
+- intent: what_is_sugam 
+  examples: | 
+   - What is Sugam? 
+   - Can you tell me about Sugam? 
+   - What does Sugam do? 
+   - Describe Sugam.
+   - Sugam?
+   - Sugam 
+   - Sugam Cloud
+
+
+- intent: how_sugam_works
+  examples: |
+    - How does Sugam Tally Cloud work?
+    - What is the working process of Sugam Tally Cloud?
+    - How do I use Sugam Tally Cloud?
+    - Working Sugam Tally Cloud?
+    - Working
+    - How to use Sugam Tally Cloud?
+
+- intent: security_measures
+  examples: |
+    - How is Sugam Cloud secured for running Tally?
+    - What are the security measures in place for Sugam Tally Cloud?
+    - Is Sugam Cloud safe for my Tally data?
+    - Sugam Cloud Security?
+    - Is Sugam Cloud secure
+    - Security 
+    - Security concern
+    
+- intent: own_tally_license
+  examples: |
+    - Do I need my own Tally License for Sugam Cloud?
+    - Can I use my existing Tally License on Sugam Cloud?
+    - Can Sugam Cloud provide tally license?
+    - About License
+
+- intent: multiuser_access
+  examples: |
+    - Can I use a single-user Tally License for multi-user access on Sugam Cloud?
+    - Do I need a Multiuser Gold License for Sugam Cloud?
+    - Multi user
+    - Single user
+
+- intent: subscription_info
+  examples: |
+    - How do I get a Sugam Tally Cloud subscription?
+    - How can I subscribe to Sugam Tally Cloud?
+    - Subscription
+
+- intent: customizations_support
+  examples: |
+    - Does Tally on Sugam Cloud support all Tally customizations (TDLs)?
+    - Can I integrate my Tally customizations on Sugam Cloud?
+    - Support
+    - Customixation
+   
+- intent: backup_data
+  examples: |
+    - How do I backup Tally data on Sugam Cloud?
+    - Can I backup my data on Sugam Cloud?
+    - Data Backup
+    - Backup
+    - Is my Data Safe
+
+- intent: device_access
+  examples: |
+    - Can I access Tally from any device and operating system?
+    - Is Sugam Tally Cloud compatible with different operating systems?
+    - How can i access it
+    - Access
+    - Device requirement to access Sugam Tally Cloud
+
+- intent: refund_policy
+  examples: |
+    - What is the refund policy for Sugam Tally Cloud?
+    - Can I get a refund if I don't like Sugam Tally Cloud?
+    - refund 
+    - refund policy
+
+
+
+- intent: legal_compliance
+  examples: |
+    - How is Sugam completely legal & compliant?
+    - Is Sugam Tally Cloud legal?
+    - How does Sugam ensure compliance with regulations?
+    - What makes Sugam legally compliant?
+
+- intent: most_secure_platform
+  examples: |
+    - What makes Sugam the most secure platform?
+    - How secure is Sugam Tally Cloud?
+    - Why is Sugam considered a secure platform for Tally?
+
+- intent: access_tally
+  examples: |
+    - How to access Tally on Sugam Cloud?
+    - How do I use Tally on Sugam Cloud?
+    - Can you tell me how to access Tally using Sugam Cloud?
+
+- intent: support_versions
+  examples: |
+    - Does it support all versions of Tally?
+    - Can I use different versions of Tally on Sugam Cloud?
+    - Is Sugam Cloud compatible with all Tally versions?
